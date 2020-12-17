@@ -1,11 +1,14 @@
-import Header from './components/header/Header';
 import './default.scss';
+import Header from './components/Header/Header';
+import Homepage from './pages/homepage/Homepage';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <h2>Hello world</h2>
+      <div className="main">
+        <Homepage />
+      </div>
     </div>
   );
 };
