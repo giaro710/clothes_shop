@@ -4,7 +4,11 @@ import './Header.scss';
 const Header = () => {
   return (
     <header className="header">
-      <h3>header</h3>
+      <div className="logo">
+        <div className="logo__container">
+          <h3>The clothes shop</h3>
+        </div>
+      </div>
     </header>
   );
 };
